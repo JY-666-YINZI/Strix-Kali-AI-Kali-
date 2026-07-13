@@ -1,23 +1,69 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+### AL Language Standard Ignores ###
+# Template for AL projects for Dynamics 365 Business Central
+# launch.json folder
 .vscode/
-#Cache folder
+# Cache folder
 .alcache/
-#Symbols folder
+# Symbols folder
 .alpackages/
-#Snapshots folder
+# Snapshots folder
 .snapshots/
-#Testing Output folder
+# Testing Output folder
 .output/
-#Extension App-file
+# Extension App-file
 *.app
-#Rapid Application Development File
+# Rapid Application Development File
 rad.json
-#Translation Base-file
+# Translation Base-file
 *.g.xlf
-#License-files
+# License-files
 *.bclicense
 *.flf
-#Test results file
+# Test results file
 TestResults.xml
+
+### Python & Strix AI-Agent Specifcs ###
+# === Python standard ignores ===
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Virtual Environment ===
+.venv
+venv
+ENV
+env/
+
+# === Environment variables & Secrets ===
+.env
+.secret
+*.key
+*.token
+
+# === Strix Tool Specifics ===
+# 屏蔽自动生成的本地测试运行报告路径，防止误上传隐私资产
+strix_runs/
+.strix_cache/
+sandbox_temp/
+
+# === System ignores ===
+.DS_Store
+*.swp
