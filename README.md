@@ -53,3 +53,11 @@ sudo apt install -y python3 python3-pip python3-venv --fix-missing
          A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.
 
 
+### 🐳 Container Registry Deployment / 容器化包管理
+
+Strix-Kali-AI framework configurations are fully compliant with GitHub Packages (GHCR) and specialized domestic mirrors. To fetch the verified execution core directly:
+
+```bash
+# 官方标准的 Package 部署拉取流
+docker pull ghcr.io/your-github-username/strix-kali-ai:latest
+
