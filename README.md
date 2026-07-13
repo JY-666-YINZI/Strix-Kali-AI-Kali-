@@ -5,7 +5,7 @@
       ___) | |_| |  | |>  <  
      |____/ \__|_|  |_/_/\_\
 
-# Strix-Kali-AI
+#
 
 [![PyPI version](https://img.shields.io/badge/pypi-v0.1.0-orange.svg)]()
 [![Downloads](https://img.shields.io/badge/downloads-12k%2Fday-brightgreen.svg)]()
@@ -25,6 +25,8 @@ Strix-Kali-AI currently supports comprehensive assessment flows for:
 * **Multi-LLM Adaptation**: Seamless orchestration across DeepSeek-V4, Claude 3.5/4.6, Volcano Engine (火山引擎), and OpenRouter.
 
 ---
+<img width="477" height="348" alt="image" src="https://github.com/user-attachments/assets/5888ca70-2cc4-4bc8-8148-b140c7579e4f" />
+
 
 ## 🛠️ Quick Start
 
