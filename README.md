@@ -11,18 +11,19 @@
 [![Downloads](https://img.shields.io/badge/downloads-12k%2Fday-brightgreen.svg)]()
 [![Built by](https://img.shields.io/badge/Built%20by-Strix%20Ops%20Team-blue.svg)]()
 
-> [!IMPORTANT]
+# > [!IMPORTANT]
 > Strix-Kali-AI performs autonomous security scanning and exploitation dynamically within an isolated sandbox. Since it automatically generates and executes Proof-of-Concept (PoC) scripts with the privileges of the active runner, **never execution against unauthorized environments**. Always verify target ownership and secure appropriate authorization before deployment. See the [Security Considerations](SECURITY.md) section for details.
 
+# 🌐 Project Overview
 Strix-Kali-AI is an optimized, high-performance integration guide and toolkit for deploying **Strix**—the autonomous AI agent that acts like a real hacker—specifically tailored for Kali Linux environments. By leveraging next-generation Large Language Models (LLMs), Strix dynamic executes local code, maps out vectors, and validates real-world vulnerabilities with concrete PoCs, ensuring zero-false-positive security validation without the overhead of manual pentesting.
 
 Strix-Kali-AI currently supports comprehensive assessment flows for:
-
-* **Automated Reconnaissance**: Intelligent port mapping and service finger-printing.
-* **WAF/Defense Bypass**: High-reasoning heuristic analysis to circumvent defense mechanisms.
-* **IDOR & Business Logic Faults**: Context-aware testing across authenticated endpoints.
-* **PoC Generation & Execution**: On-the-fly script synthesis validated in clean docker sandboxes.
-* **Multi-LLM Adaptation**: Seamless orchestration across DeepSeek-V4, Claude 3.5/4.6, Volcano Engine (火山引擎), and OpenRouter.
+      
+      * **Automated Reconnaissance**: Intelligent port mapping and service finger-printing.
+      * **WAF/Defense Bypass**: High-reasoning heuristic analysis to circumvent defense mechanisms.
+      * **IDOR & Business Logic Faults**: Context-aware testing across authenticated endpoints.
+      * **PoC Generation & Execution**: On-the-fly script synthesis validated in clean docker sandboxes.
+      * **Multi-LLM Adaptation**: Seamless orchestration across DeepSeek-V4, Claude 3.5/4.6, Volcano Engine (火山引擎), and OpenRouter.
 
 ---
 <img width="477" height="348" alt="image" src="https://github.com/user-attachments/assets/5888ca70-2cc4-4bc8-8148-b140c7579e4f" />
@@ -47,6 +48,12 @@ sudo apt install -y python3 python3-pip python3-venv --fix-missing
 4. [🎯 实战演练：从端口扫描到“对话式”深度渗透](#4)
 5. [🎛️ 进阶技巧：如何用 --instruction 小纸条操纵 AI 的注意力](#5)
 6. [📈 总结与 Token 消耗避坑指南](#6)
+
+> 💡 **Core Hub / 核心指南提示**
+> 
+> * **ENG:** All core tutorials, operational focus, configuration keys, and exploit scenarios are **centrally organized in this single primary MD document**. No need to dig through sub-folders—one-stop deployment starts here.
+> 
+> * **中文：** 本项目的所有核心实战教程、核心重难点、保姆级大模型配置指南以及避坑技巧，**已全部集中、沉淀在上面唯一一个主 MD 文档中**。无需四处翻找子目录，一页榨干 Strix 的全部潜能！
 
          Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。
          以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，全网最全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。
